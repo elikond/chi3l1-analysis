@@ -11,7 +11,7 @@ from sklearn.multioutput import MultiOutputClassifier
 def get_data(patientID):
 	X = pd.read_csv('~/scRNA/X_' + patientID +'_scRNA.csv')
 	y = pd.read_csv('~/scRNA/y_' + patientID +'_scRNA.csv')
-	barcode_len = len(y.columns)
+	barcode_len = len(y.columns) - 2
 	return X, y, barcode_len
 
 def tune_train(patient_list):
