@@ -39,3 +39,4 @@ temp_col <- sub('GEX:', '', rownames(mesenchymal_proneural))
 final_names <- sub('x', '.1', temp_col)
 row.names(mesenchymal_proneural) <- final_names
 write.csv(mesenchymal_proneural, '~/Downloads/mesenchymal_proneural.csv')
+
