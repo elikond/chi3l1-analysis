@@ -11,4 +11,4 @@ module load python/3.7.4
 module load anaconda/2022.05
 source /gpfs/runtime/opt/anaconda/2022.05/etc/profile.d/conda.sh
 conda activate /gpfs/data/rsingh47/chi3l1_venv
-python ~/shap.py
+python ~/SHAP_GB2.py
